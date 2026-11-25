@@ -1,0 +1,212 @@
+[
+  {
+    "category": "Weather and science",
+    "name": "Open-Meteo",
+    "url": "https://open-meteo.com/en/docs",
+    "auth": "No key for eligible non-commercial access",
+    "use": "Forecasts and historical weather; commercial terms differ"
+  },
+  {
+    "category": "Weather and science",
+    "name": "USGS Earthquake Catalog",
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/",
+    "auth": "No key",
+    "use": "Earthquake event searches"
+  },
+  {
+    "category": "Weather and science",
+    "name": "NASA Open APIs",
+    "url": "https://api.nasa.gov/",
+    "auth": "API key or limited DEMO_KEY",
+    "use": "Space and Earth science; endpoint-specific limits"
+  },
+  {
+    "category": "Weather and science",
+    "name": "US National Weather Service",
+    "url": "https://www.weather.gov/documentation/services-web-api",
+    "auth": "No key; identifying User-Agent",
+    "use": "US weather alerts and forecasts"
+  },
+  {
+    "category": "Weather and science",
+    "name": "NOAA Climate Data Online",
+    "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+    "auth": "Token",
+    "use": "Climate station and observation data"
+  },
+  {
+    "category": "Geography",
+    "name": "REST Countries",
+    "url": "https://restcountries.com/",
+    "auth": "Check current version and access rules",
+    "use": "Country metadata"
+  },
+  {
+    "category": "Geography",
+    "name": "Nominatim",
+    "url": "https://nominatim.org/release-docs/latest/api/Overview/",
+    "auth": "No key on public instance; strict policy",
+    "use": "Geocoding; no bulk use on public server"
+  },
+  {
+    "category": "Geography",
+    "name": "GeoNames",
+    "url": "https://www.geonames.org/export/web-services.html",
+    "auth": "Registered username",
+    "use": "Place names and coordinates"
+  },
+  {
+    "category": "Geography",
+    "name": "OpenStreetMap API",
+    "url": "https://wiki.openstreetmap.org/wiki/API_v0.6",
+    "auth": "Authentication for edits",
+    "use": "Map data editing API; not a general bulk query service"
+  },
+  {
+    "category": "Public data",
+    "name": "World Bank Indicators",
+    "url": "https://datahelpdesk.worldbank.org/knowledgebase/topics/125589-developer-information",
+    "auth": "No key",
+    "use": "International development indicators"
+  },
+  {
+    "category": "Public data",
+    "name": "UNdata",
+    "url": "https://data.un.org/Host.aspx?Content=API",
+    "auth": "See service documentation",
+    "use": "International statistical datasets"
+  },
+  {
+    "category": "Public data",
+    "name": "Eurostat",
+    "url": "https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access",
+    "auth": "No key for public data",
+    "use": "European statistics"
+  },
+  {
+    "category": "Public data",
+    "name": "US Census",
+    "url": "https://www.census.gov/data/developers.html",
+    "auth": "Key recommended or required depending on use",
+    "use": "US population and economic data"
+  },
+  {
+    "category": "Public data",
+    "name": "Nager.Date",
+    "url": "https://date.nager.at/Api",
+    "auth": "No key for public API",
+    "use": "Public holidays for supported countries"
+  },
+  {
+    "category": "Research and books",
+    "name": "Open Library",
+    "url": "https://openlibrary.org/developers/api",
+    "auth": "No key for public endpoints",
+    "use": "Book search and bibliographic metadata"
+  },
+  {
+    "category": "Research and books",
+    "name": "Crossref",
+    "url": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/",
+    "auth": "No key for public pool; identify client",
+    "use": "DOI and scholarly metadata"
+  },
+  {
+    "category": "Research and books",
+    "name": "Europe PMC",
+    "url": "https://europepmc.org/RestfulWebService",
+    "auth": "No key for public search",
+    "use": "Biomedical literature metadata"
+  },
+  {
+    "category": "Research and books",
+    "name": "OpenAlex",
+    "url": "https://docs.openalex.org/",
+    "auth": "Check key and current free allowance",
+    "use": "Scholarly works and institutions"
+  },
+  {
+    "category": "Research and books",
+    "name": "arXiv",
+    "url": "https://info.arxiv.org/help/api/index.html",
+    "auth": "No key; usage policy applies",
+    "use": "Preprint metadata"
+  },
+  {
+    "category": "Research and books",
+    "name": "Wikimedia APIs",
+    "url": "https://www.mediawiki.org/wiki/API:Main_page",
+    "auth": "Public reads; auth for writes",
+    "use": "Wiki content and metadata"
+  },
+  {
+    "category": "Research and books",
+    "name": "Wikidata Query Service",
+    "url": "https://query.wikidata.org/",
+    "auth": "No key for public queries; limits apply",
+    "use": "Structured linked data via SPARQL"
+  },
+  {
+    "category": "Developer data",
+    "name": "GitHub REST API",
+    "url": "https://docs.github.com/en/rest",
+    "auth": "Public reads may be keyless; auth raises limits",
+    "use": "Public repository and user metadata"
+  },
+  {
+    "category": "Developer data",
+    "name": "npm Registry",
+    "url": "https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md",
+    "auth": "Public package metadata generally keyless",
+    "use": "Package information"
+  },
+  {
+    "category": "Developer data",
+    "name": "PyPI JSON API",
+    "url": "https://docs.pypi.org/api/json/",
+    "auth": "No key for public package reads",
+    "use": "Python package metadata"
+  },
+  {
+    "category": "Developer data",
+    "name": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/",
+    "auth": "No key",
+    "use": "Fake REST data for testing; writes simulated"
+  },
+  {
+    "category": "Developer data",
+    "name": "httpbin",
+    "url": "https://httpbin.org/",
+    "auth": "No key on public instance",
+    "use": "Inspect HTTP request behavior"
+  },
+  {
+    "category": "Developer data",
+    "name": "Open Food Facts",
+    "url": "https://openfoodfacts.github.io/openfoodfacts-server/api/",
+    "auth": "Public reads; identify client; quotas",
+    "use": "Food product metadata; database license applies"
+  },
+  {
+    "category": "Developer data",
+    "name": "PokéAPI",
+    "url": "https://pokeapi.co/docs/v2",
+    "auth": "No key; fair-use policy",
+    "use": "Pokémon reference data"
+  },
+  {
+    "category": "Developer data",
+    "name": "TVmaze",
+    "url": "https://www.tvmaze.com/api",
+    "auth": "No key for public API",
+    "use": "TV show metadata; attribution rules apply"
+  },
+  {
+    "category": "Developer data",
+    "name": "Frankfurter",
+    "url": "https://frankfurter.dev/",
+    "auth": "See current public service terms",
+    "use": "Reference exchange rates, not trading quotes"
+  }
+]
